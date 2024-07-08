@@ -159,9 +159,35 @@ main section {
   /* resume style start */
   .resume-container {
     display: flex;
-    gap: 10px;
+    gap: 24px;
   }
-  hr {
+  .resume-container hr {
     color: #ebd9d9;
+    margin: 25px 10px;
+  }
+
+  .resume-container h5 {
+    margin: 5px;
+    font-weight: lighter;
+
   }
   /* resume style end */
+
+  /* footer style */
+  .footer-column input,textarea {
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow:  rgba(0, 0, 0, 0.06) 0px 6px 50px 0px;
+  }
+  .footer-column-container {
+    padding: 188px 188px;
+    display: flex;
+    gap: 100px;
+  }
+  .footer-column {
+    width: 50%;
+  }
+  .footer-column input{
+    width: 254px;
+  }
