@@ -191,3 +191,11 @@ main section {
   .footer-column input{
     width: 254px;
   }
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .education-experience {
+    width: 50%;
+  }
